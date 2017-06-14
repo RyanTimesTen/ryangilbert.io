@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    background: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#pauseButton {
+    position: fixed;
+    bottom: 2.5%;
+    left: 2.5%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color:darkgray;
+}
+
+#pauseButton:hover {
+    cursor: pointer;
+}
+
+#video {
+    position: relative;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1d1e21;
+    color: #ffffff;
+    opacity: 0.7;
+    border-radius: 8px;
+    max-width: 100%;
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    margin: -250px 0 0 -400px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+    height: 3px;
+    border: none;
+    background-color: black;
+}
+
+#inner-circle {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    position: absolute;
+    margin: -25px 0 0 -50px;
+    left: 50%;
+    top: 50%;
+    transition-duration: 0.4s;
+}
+
+#inner-circle:hover {
+    background-color: #332f2f;
+    border-color: white;
+    transition-duration: 0.4s;
+}
+
+#segment1 {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 0px 150px 0px 0px;
+    -moz-border-radius: 0px 150px 0px 0px;
+    border-radius: 0px 150px 0px 0px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    left: 52.75%;
+    top: 33%;
+/*     animation: rotate 10s linear infinite; */
+    transform-origin: bottom left;
+    transform-style: preserve-3D;
+    transform: rotate(360deg);
+}
+
+#segment1:hover {
+    background-color: #332f2f;
+    border-color: white;
+    transition-duration: 0.4s;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#email-icon {
+    font-size: 48px;
+    color: #4557d0;
+    position: absolute;
+    margin: 25px 0 0 -24px;
+    transition-duration: 0.4s;
+}
+
+#email-icon:hover {
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#github-icon {
+    font-size: 48px;
+    color: #4557d0;
+    position: absolute;
+    margin: 50px 0 0 -24px;
+    transition-duration: 0.4s;
+}
+
+#github-icon:hover {
+    color: white;
+    transition-duration: 0.4s;
+}
+
+/* TODO: this should make just the image display on mobile but just shows a black screen */
+/*@media screen and (max-device-width: 800px) {
+    html {
+         background: url('//static/images/stock-frame.png') #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}*/
