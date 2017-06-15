@@ -14,6 +14,7 @@ h1 {
 a {
     text-decoration: none;
     color: #fff
+/*     color: black; */
 }
 
 video#bgvid {
@@ -56,6 +57,7 @@ video#bgvid {
     padding-left: 15px;
     padding-right: 15px;
     background-color: #1d1e21;
+/*     background-color: #fff; */
     color: #ffffff;
     opacity: 0.7;
     border-radius: 8px;
@@ -73,7 +75,7 @@ hr {
     width: 500px;
     height: 3px;
     border: none;
-    background-color: black;
+    background-color: white;
 }
 
 #inner-circle {
@@ -82,7 +84,8 @@ hr {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
-    background-color: #fff;
+/*     background-color: #fff; */
+    background-color: #e49f21;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -106,22 +109,117 @@ hr {
     -moz-border-radius: 0px 150px 0px 0px;
     border-radius: 0px 150px 0px 0px;
     background-color: #fff;
+/*     background-color: #8383bd; */
+/*     background-color: #30343a; */
     border-style: solid;
-    border-width: 4px;
+    border-width: 2px;
     border-color: black;
     position: absolute;
     margin: -25px 0 0 -25px;
-    left: 52.75%;
+    left: 54%;
     top: 33%;
 /*     animation: rotate 10s linear infinite; */
     transform-origin: bottom left;
     transform-style: preserve-3D;
     transform: rotate(360deg);
+    transition-duration: 0.4s;
 }
 
 #segment1:hover {
-    background-color: #332f2f;
-    border-color: white;
+/*     background-color: #332f2f; */
+    background-color: #30343a;
+/*     border-color: white; */
+    transition-duration: 0.4s;
+}
+
+#segment1:hover:only-child {
+    color: white;
+}
+
+#segment2 {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 0px 150px 0px 0px;
+    -moz-border-radius: 0px 150px 0px 0px;
+    border-radius: 0px 0px 150px 0px;
+    background-color: #fff;
+/*     background-color: #8583bd; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    left: 54%;
+    top: 58.5%;
+/*     animation: rotate 10s linear infinite; */
+    transform-origin: bottom left;
+    transform-style: preserve-3D;
+    transform: rotate(360deg);
+    transition-duration: 0.4s;
+}
+
+#segment2:hover {
+/*     background-color: #332f2f; */
+/*     border-color: white; */
+    background-color: #0084bf;
+    transition-duration: 0.4s;
+}
+
+#segment3 {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 0px 150px 0px 0px;
+    -moz-border-radius: 0px 150px 0px 0px;
+    border-radius: 0px 0px 0px 150px;
+    background-color: #fff;
+/*     background-color: #8583bd; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    left: 30.4%;
+    top: 58.5%;
+/*     animation: rotate 10s linear infinite; */
+    transform-origin: bottom left;
+    transform-style: preserve-3D;
+    transform: rotate(360deg);
+    transition-duration: 0.4s;
+}
+
+#segment3:hover {
+/*     background-color: #332f2f; */
+/*     border-color: white; */
+    background-color: #0084bf;
+    transition-duration: 0.4s;
+}
+
+#segment4 {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 0px 150px 0px 0px;
+    -moz-border-radius: 0px 150px 0px 0px;
+    border-radius: 150px 0px 0px 0px;
+    background-color: #fff;
+/*     background-color: #8583bd; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    left: 30.4%;
+    top: 33%;
+/*     animation: rotate 10s linear infinite; */
+    transform-origin: bottom left;
+    transform-style: preserve-3D;
+    transform: rotate(360deg);
+    transition-duration: 0.4s;
+}
+
+#segment4:hover {
+/*     background-color: #332f2f; */
+/*     border-color: white; */
+    background-color: #0084bf;
     transition-duration: 0.4s;
 }
 
@@ -132,7 +230,7 @@ hr {
 
 #email-icon {
     font-size: 48px;
-    color: #4557d0;
+    color: #fbecec;
     position: absolute;
     margin: 25px 0 0 -24px;
     transition-duration: 0.4s;
@@ -145,13 +243,29 @@ hr {
 
 #github-icon {
     font-size: 48px;
-    color: #4557d0;
+/*     color: #4557d0; */
+/*     color: #fbecec; */
+    color: #30343a;
     position: absolute;
     margin: 50px 0 0 -24px;
     transition-duration: 0.4s;
 }
 
 #github-icon:hover {
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#linkedin-icon {
+    font-size: 48px;
+/*     color: #4557d0; */
+    color: #0084bf;
+    position: absolute;
+    margin: 50px 0 0 -24px;
+    transition-duration: 0.4s;
+}
+
+#linkedin-icon:hover {
     color: white;
     transition-duration: 0.4s;
 }
