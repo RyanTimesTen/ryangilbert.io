@@ -140,7 +140,7 @@ hr {
     border-width: 2px;
     border-color: black;
     position: absolute;
-    margin: 160px 0 0 344px;
+    margin: 138px 0 0 344px;
 /*     animation: rotate 10s linear infinite; */
     transform-origin: bottom left;
     transform-style: preserve-3D;
@@ -164,7 +164,7 @@ hr {
     border-width: 2px;
     border-color: black;
     position: absolute;
-    margin: 160px 0 0 215px;
+    margin: 138px 0 0 215px;
 /*     animation: rotate 10s linear infinite; */
     transform-origin: bottom left;
     transform-style: preserve-3D;
@@ -188,7 +188,7 @@ hr {
     border-width: 2px;
     border-color: black;
     position: absolute;
-    margin: 31px 0 0 215px;
+    margin: 9px 0 0 215px;
 /*     animation: rotate 10s linear infinite; */
     transform-origin: bottom left;
     transform-style: preserve-3D;
