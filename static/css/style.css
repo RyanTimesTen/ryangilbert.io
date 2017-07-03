@@ -13,7 +13,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff
+    color: #e6e3e3
 }
 
 video#bgvid {
@@ -73,7 +73,7 @@ hr {
     width: 500px;
     height: 3px;
     border: none;
-    background-color: white;
+    background-color: #e6e3e3;
 }
 
 #inner-circle {
@@ -105,7 +105,7 @@ hr {
     -webkit-border-radius: 0px 125px 0px 0px;
     -moz-border-radius: 0px 125px 0px 0px;
     border-radius: 0px 125px 0px 0px;
-    background-color: #fff;
+    background-color: #e6e3e3;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -135,7 +135,7 @@ hr {
     -webkit-border-radius: 0px 150px 0px 0px;
     -moz-border-radius: 0px 150px 0px 0px;
     border-radius: 0px 0px 150px 0px;
-    background-color: #fff;
+    background-color: #e4dfdf;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -163,7 +163,7 @@ hr {
     -webkit-border-radius: 0px 150px 0px 0px;
     -moz-border-radius: 0px 150px 0px 0px;
     border-radius: 0px 0px 0px 150px;
-    background-color: #fff;
+    background-color: #e4dfdf;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -177,8 +177,12 @@ hr {
 }
 
 #segment3:hover {
-    background-color: #0084bf;
+    background-color: #d67979;
     transition-duration: 0.4s;
+}
+
+#segment3:hover #email-icon {
+    color: #fff;
 }
 
 #segment4 {
@@ -187,7 +191,7 @@ hr {
     -webkit-border-radius: 0px 150px 0px 0px;
     -moz-border-radius: 0px 150px 0px 0px;
     border-radius: 150px 0px 0px 0px;
-    background-color: #fff;
+    background-color: #e4dfdf;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -201,8 +205,12 @@ hr {
 }
 
 #segment4:hover {
-    background-color: #0084bf;
+    background-color: #7cc577;
     transition-duration: 0.4s;
+}
+
+#segment4:hover #resume-icon {
+    color: #fff
 }
 
 @keyframes rotate {
@@ -212,14 +220,9 @@ hr {
 
 #email-icon {
     font-size: 42px;
-    color: #000;
+    color: #d67979;
     position: absolute;
     margin: 35px 0 0 -8px;
-    transition-duration: 0.4s;
-}
-
-#email-icon:hover {
-    color: white;
     transition-duration: 0.4s;
 }
 
@@ -231,11 +234,6 @@ hr {
     transition-duration: 0.4s;
 }
 
-#github-icon:hover {
-    color: white;
-    transition-duration: 0.4s;
-}
-
 #linkedin-icon {
     font-size: 42px;
     color: #0084bf;
@@ -244,21 +242,11 @@ hr {
     transition-duration: 0.4s;
 }
 
-#linkedin-icon:hover {
-    color: white;
-    transition-duration: 0.4s;
-}
-
 #resume-icon {
     font-size: 42px;
-    color: #0084bf;
+    color: #7cc577;
     position: absolute;
     margin: 50px 0 0 -18px;
-    transition-duration: 0.4s;
-}
-
-#resume-icon:hover {
-    color: white;
     transition-duration: 0.4s;
 }
 
