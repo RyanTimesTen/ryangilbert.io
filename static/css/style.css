@@ -13,7 +13,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #e6e3e3
+    color: #e6e6e6;
 }
 
 video#bgvid {
@@ -73,7 +73,7 @@ hr {
     width: 500px;
     height: 3px;
     border: none;
-    background-color: #e6e3e3;
+    background-color: #e6e6e6;
 }
 
 #inner-circle {
@@ -85,17 +85,11 @@ hr {
     background-color: #e49f21;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: #000;
     position: absolute;
     margin: -25px 0 0 -50px;
     left: 50%;
     top: 50%;
-    transition-duration: 0.4s;
-}
-
-#inner-circle:hover {
-    background-color: #332f2f;
-    /*border-color: white;*/
     transition-duration: 0.4s;
 }
 
@@ -105,10 +99,10 @@ hr {
     -webkit-border-radius: 0px 125px 0px 0px;
     -moz-border-radius: 0px 125px 0px 0px;
     border-radius: 0px 125px 0px 0px;
-    background-color: #e6e3e3;
+    background-color: #e6e6e6;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: #000;
     position: absolute;
     margin: -107px 0 0 -6px;
     left: 50%;
@@ -126,7 +120,7 @@ hr {
 }
 
 #segment1:hover #github-icon {
-    color: #fff;
+    color: #e6e6e6;
 }
 
 #segment2 {
@@ -135,10 +129,10 @@ hr {
     -webkit-border-radius: 0px 150px 0px 0px;
     -moz-border-radius: 0px 150px 0px 0px;
     border-radius: 0px 0px 150px 0px;
-    background-color: #e4dfdf;
+    background-color: #e6e6e6;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: #000;
     position: absolute;
     margin: 138px 0 0 344px;
 /*     animation: rotate 10s linear infinite; */
@@ -154,7 +148,7 @@ hr {
 }
 
 #segment2:hover #linkedin-icon {
-    color: #fff;
+    color: #e6e6e6;
 }
 
 #segment3 {
@@ -163,10 +157,10 @@ hr {
     -webkit-border-radius: 0px 150px 0px 0px;
     -moz-border-radius: 0px 150px 0px 0px;
     border-radius: 0px 0px 0px 150px;
-    background-color: #e4dfdf;
+    background-color: #e6e6e6;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: #000;
     position: absolute;
     margin: 138px 0 0 215px;
 /*     animation: rotate 10s linear infinite; */
@@ -182,7 +176,7 @@ hr {
 }
 
 #segment3:hover #email-icon {
-    color: #fff;
+    color: #e6e6e6;
 }
 
 #segment4 {
@@ -191,10 +185,10 @@ hr {
     -webkit-border-radius: 0px 150px 0px 0px;
     -moz-border-radius: 0px 150px 0px 0px;
     border-radius: 150px 0px 0px 0px;
-    background-color: #e4dfdf;
+    background-color: #e6e6e6;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: #000;
     position: absolute;
     margin: 9px 0 0 215px;
 /*     animation: rotate 10s linear infinite; */
@@ -210,7 +204,7 @@ hr {
 }
 
 #segment4:hover #resume-icon {
-    color: #fff
+    color: #e6e6e6
 }
 
 @keyframes rotate {
