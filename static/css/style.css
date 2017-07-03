@@ -95,7 +95,7 @@ hr {
 
 #inner-circle:hover {
     background-color: #332f2f;
-    border-color: white;
+    /*border-color: white;*/
     transition-duration: 0.4s;
 }
 
@@ -125,8 +125,8 @@ hr {
     transition-duration: 0.4s;
 }
 
-#segment1:hover:only-child {
-    color: white;
+#segment1:hover #github-icon {
+    color: #fff;
 }
 
 #segment2 {
@@ -151,6 +151,10 @@ hr {
 #segment2:hover {
     background-color: #0084bf;
     transition-duration: 0.4s;
+}
+
+#segment2:hover #linkedin-icon {
+    color: #fff;
 }
 
 #segment3 {
@@ -256,6 +260,14 @@ hr {
 #resume-icon:hover {
     color: white;
     transition-duration: 0.4s;
+}
+
+#profile_img {
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
 }
 
 /* TODO: this should make just the image display on mobile but just shows a black screen */

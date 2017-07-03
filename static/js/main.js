@@ -19,3 +19,16 @@ pauseButton.addEventListener('click', function() {
         vid.pause();
     }
 });
+
+var segments = document.getElementsByClassName('segment')
+
+function hover(element) {
+    // console.log('Hovering: ' + element);
+    childIcon = element.children;
+    childIcon[0].add(':hover')
+    // console.log(childIcon[0].attributes);
+    // for (var i = 0; i < childIcon.length; ++i) {
+    //     console.log(childIcon[i]);
+    // }
+    // console.log(childIcon.attributes)
+}
