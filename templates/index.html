@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-    <title>Ryan Gilbert | Personal Site</title>
+    <title>Ryan Gilbert</title>
 
     <link rel="stylesheet" href="/static/css/style.css">
 
@@ -14,28 +14,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <i class="fa fa-pause fa-2x" id="pauseButton"></i>
-
     <div class="jumbotron">
       <a href="{{url_for('index')}}"><h1>Ryan Gilbert</h1></a><br>
-      <p style="display:inline">University of Michigan '18 Computer Science</p>
+      <p style="display:inline;">University of Michigan | Class of 2018 | Computer Science</p>
       <hr>
-      <a href="https://github.com/rgilbert1">
+      <a href="https://github.com/rgilbert1" target="_blank">
         <div class="segment" id="segment1">
           <i class="fa fa-github" id="github-icon"></i>
         </div>
       </a>
-      <a href="https://www.linkedin.com/in/ryan-gilbert-813a90107/">
+      <a href="https://www.linkedin.com/in/ryan-gilbert-813a90107/" target="_blank">
         <div class="segment" id="segment2">
           <i class="fa fa-linkedin" id="linkedin-icon"></i>
         </div>
       </a>
-      <a href="mailto:ryangilbert7296@gmail.com">
+      <a href="mailto:ryangilbert7296@gmail.com" target="_blank">
         <div class="segment" id="segment3">
           <i class="material-icons" id="email-icon">mail_outline</i>
         </div>
       </a>
-      <a href="/static/resume/resume.pdf">
+      <a href="/static/resume/resume.pdf" target="_blank">
         <div class="segment" id="segment4">
           <i class="material-icons" id="resume-icon">description</i>
         </div>
@@ -45,10 +43,8 @@
       </div>
     </div>
 
-    <div id="video">
-      <video playsinline autoplay muted loop poster="static/images/stock-frame.png" id="bgvid">
-        <source src="static/video/stock-video.mp4">
-      </video>
+    <div id="background_image">
+      <img src="/static/images/michigan-cube.jpg">
     </div>
 
     <script type="text/javascript" src="/static/js/main.js"></script>
