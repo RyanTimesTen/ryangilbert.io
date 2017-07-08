@@ -41,9 +41,10 @@ a {
     color: #e6e6e6;
     opacity: 0.9; 
     border-radius: 8px;
-    max-width: 100%;
-    height: 550px;
-    width: 750px;
+    max-height: 550px;
+    max-width: 750px;
+    height: 100%;
+    width: 100%;
     position: absolute;
     margin: -320px 0 0 -400px;
     left: 50%;
@@ -59,8 +60,10 @@ hr {
 }
 
 #inner-circle {
-    width: 120px;
-    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 62px;
     -moz-border-radius: 62px;
     border-radius: 62px;
@@ -74,8 +77,10 @@ hr {
 }
 
 #segment1 {
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 0px 150px 0px 0px;
     -moz-border-radius: 0px 150px 0px 0px;
     border-radius: 0px 150px 0px 0px;
@@ -93,8 +98,10 @@ hr {
 
 #segment1:hover {
     background-color: #30343a;
-    width: 175px;
-    height: 175px;
+    max-width: 175px;
+    max-height: 175px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 0px 175px 0px 0px;
     -moz-border-radius: 0px 175px 0px 0px;
     border-radius: 0px 175px 0px 0px;
@@ -109,8 +116,10 @@ hr {
 }
 
 #segment2 {
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 0px 0px 150px 0px;
     -moz-border-radius: 0px 0px 150px 0px;
     border-radius: 0px 0px 150px 0px;
@@ -128,8 +137,10 @@ hr {
 
 #segment2:hover {
     background-color: #0084bf;
-    width: 175px;
-    height: 175px;
+    max-width: 175px;
+    max-height: 175px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 0px 0px 175px 0px;
     -moz-border-radius: 0px 0px 175px 0px;
     border-radius: 0px 0px 175px 0px;
@@ -143,8 +154,10 @@ hr {
 }
 
 #segment3 {
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 0px 0px 0px 150px;
     -moz-border-radius: 0px 0px 0px 150px;
     border-radius: 0px 0px 0px 150px;
@@ -162,8 +175,10 @@ hr {
 
 #segment3:hover {
     background-color: #d67979;
-    width: 175px;
-    height: 175px;
+    max-width: 175px;
+    max-height: 175px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 0px 0px 0px 175px;
     -moz-border-radius: 0px 0px 0px 175px;
     border-radius: 0px 0px 0px 175px;
@@ -178,8 +193,10 @@ hr {
 }
 
 #segment4 {
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 150px 0px 0px 0px;
     -moz-border-radius: 150px 0px 0px 0px;
     border-radius: 150px 0px 0px 0px;
@@ -197,8 +214,10 @@ hr {
 
 #segment4:hover {
     background-color: #7cc577;
-    width: 175px;
-    height: 175px;
+    max-width: 175px;
+    max-height: 175px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 175px 0px 0px 0px;
     -moz-border-radius: 175px 0px 0px 0px;
     border-radius: 175px 0px 0px 0px;
@@ -249,8 +268,10 @@ hr {
 }
 
 #profile_img {
-    width: 120px;
-    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    width: 100%;
+    height: 100%;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
     border-radius: 60px;
