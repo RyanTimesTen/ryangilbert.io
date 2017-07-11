@@ -32,6 +32,13 @@ a {
     background-size: cover;
 }
 
+@media screen and (max-width: 1920px) {
+    #background_image {
+        margin-left: -500px;
+        margin-top: -200px;
+    }
+}
+
 .jumbotron {
     padding-top: 30px;
     padding-bottom: 30px;
